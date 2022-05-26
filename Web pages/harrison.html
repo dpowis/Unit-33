@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>course work</title>
+ <style>
+    :root{
+    --primary-color:#a1c3ff
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    
+     * {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+     }
+body{
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: white;
+}
+
+img{
+    max-width: 100%;
+}
+h1,h2{
+    margin-bottom: 15px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+.navbar{
+    background: #3474e6;
+    color: white;
+    height: 60px;
+
+}
+.navbar a:hover{
+    border-bottom: 3px solid purple;
+}
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+}
+ .navbar a{
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+ }
+
+ .navbar .container{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100%;
+ }
+ .navbar ul{
+     display: flex;
+ }
+ .navbar ul li{
+     margin-left: 10px;
+ }
+
+ .header{
+     min-height: 400px;
+
+ }
+
+ .header h1{
+     font-size: 3.0rem;
+     font-weight: bold;
+     line-height: 1.2;
+ }
+
+ .header .container{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .boxes .container{
+     display: flex;
+     justify-content: space-between;
+ }
+ .box{
+     flex: 1;
+     background-color: var(--primary-color);
+     color:rgb(0, 165, 194);
+     border-radius: 10px;
+     margin: 20px 10px;
+     padding: 15px 20px;
+     box-shadow: 0 3px 5px  rgba( 0,0, 0.6);
+ }
+ .box h2{
+     font-size: 1rem;
+     color: black;
+ }
+ .box img{
+     margin-right: 10px;
+     border-radius: 50%;
+     
+ }
+
+ .footer {
+     background-color: #3474e6;
+     margin: 20px auto;
+     padding: 10px 15px;
+     color: white;
+     font-size: 1rem;
+     font-weight: bold;
+     text-align: center;
+
+
+ }
+   .footer p{
+       text-align: center;
+   }
+   
+    
+     input, textarea{
+         display: flex;
+         width: 50%;
+         margin-bottom: 0.5px;
+         border-radius: 10px;
+         padding: 10px 5px;
+         
+    
+         
+     }
+     
+       .contact label{
+           font-size: 16px;
+           font-weight: bold;
+          
+       }
+
+       .btn{
+            margin-top: 10px;
+            width: 15%;
+            align-items: center;
+            padding: 5px 10px;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+            color: white;
+            background-color: black;
+             
+       }
+      
+      
+
+
+
+
+
+  
+        
+ </style>
+</head>
+<body>
+    <center>
+        <div class="innerNav">
+            <table class="tableNav">
+                <tr>
+                    <td>
+                        <a href="Homepage.html"> <img class="button" src="../Images/homebutton.png" /> </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Unit33 </div>
+            <ul class="Nav">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" value="">
+                <label for="Email">Email</label>
+                <input type="text" id="email" value="">
+                <label for="Message">Description</label>
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="type your messages..."></textarea>
+                <button type="button" class="btn">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</body>
+
+
+</body>
+</html>

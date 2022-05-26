@@ -1,0 +1,189 @@
+﻿
+body {
+    background-color: black;
+    color: lightgray;
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+.wrapper {
+    padding:2px;
+    width: 100%;
+   height:0px;
+}
+
+.header {
+    width: 100%;
+    background-color: darkslateblue;
+    color: white
+}
+
+.nav {
+    background-color: black;
+    width: 220px;
+    float: left;
+    height: 400px;
+}
+
+.innerNav {
+    float: left;
+    justify-content: center;
+}
+
+.tableNav, tr, td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+
+.mainContent {
+    width: 830px;
+    float: left
+}
+
+.innerContent {
+    width: 830px;
+    padding: 30px 30px 10px 30px;
+    background-color: black;
+    text-align: justify;
+    min-height: 1000px;
+}
+
+h1 {
+    font-family: Amatic;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: Amatic;
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-family: Amatic;
+    text-align: left;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: Amatic;
+    text-align: left;
+    font-size: 25px;
+}
+
+
+.footer {
+    background-color: black;
+    width: 1280px;   
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-color: white;
+    border-style: inset;
+}
+
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    width: 170px;
+    border-radius: 25px;
+}
+
+//cursor
+.closebtn1:hover {
+    color: black;
+}
+
+.closebtn2:hover {
+    color: black;
+}
+
+.closebtn3:hover {
+    color: black;
+}
+.imagedan {
+    padding:2px;
+    position: relative;
+    width: 550px;
+}
+.imaagekeith{
+    padding:2px;
+    position:relative;
+    width:198px;
+}
+.imagepaul{
+    padding:2px;
+    position:relative;
+    width:663px;
+}
+.imageanna{
+    padding:2px;
+    position:relative;
+    width:300px;
+}
+.imagehomeone{
+    padding:2px;
+    position:relative;
+    width:700px;
+}
+.imagehometwo{
+    padding:2px;
+    position:relative;
+    width:600px;
+}
+.imagehomethree{
+    padding:2px;
+    position:relative;
+    width:600px;
+}
+.image__img {
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background: #808080;
+    color: black;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.image_description {
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
